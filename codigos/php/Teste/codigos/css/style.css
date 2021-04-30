@@ -1,0 +1,373 @@
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+     font-family: Segoe UI;
+     color: #fff;
+    }
+body {
+    background-color: #3FD4E9C2;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1052px;
+    margin: 0 auto;
+}    
+.menu {
+    height: 110px;
+    background: #3FD4E9 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.logo {
+    max-width: 72px;
+    height: 100%;
+    width: 100%;
+}
+.links {
+    max-width: 482px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.topico {
+    text-decoration: unset !important;
+    font-size: 25px;
+}
+.banner {
+    max-height: 335px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner > div {
+    height: 335px;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 518px;
+}
+.banner-esquerda {
+    background-image: url(../../midias/imagem/155.png);
+}
+.banner-direita {
+    background-image: url(../../midias/imagem/171.png);
+}
+.texto-chamada > div {
+    display: flex;
+    align-items: center;
+}
+.texto-chamada {
+    background: #03B6CF 0% 0% no-repeat padding-box;
+}
+.conheca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conheca > div {
+    display: flex;
+    align-items: center;
+}
+.tamanho-texto {
+    width: 490px;
+}
+.texto-grafico {
+    width: 300px;
+}
+.btn-cadastre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 65px;
+}
+.btn-cadastre > a {
+    background: #F1FE63 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    width: 272px;
+    height: 67px;
+    color: #03B6CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: unset !important;
+    font-weight: bold;
+}
+.footer {
+    background: #03B6CF9E 0% 0% no-repeat padding-box;
+    height: 526px;
+}
+.footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 89px;
+}
+.footer > .container > h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+.contato > div > p {
+    font-size: 35px;
+    display: flex;
+    margin-bottom: 85px;
+}
+.contato > div > p > span {
+    font-weight: bold;
+    width: 162px;
+}
+/*CSS modal*/
+.container.modal-container.aberto {
+    display: block;
+    width: 520px;
+    height: 430px;
+    background: #03B6CF 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 5px;
+    left: 811px;
+    z-index: 99999;
+}
+.container.modal-container{
+    display: none;
+}
+.aberto .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.aberto .modal label {
+    color: #fff;
+    font-size: 35px;
+}
+.aberto .modal input[type=email],.aberto .modal input[type=password] {
+    border: unset;
+    background-color:white;
+}
+.aberto .modal > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aberto .modal > form > label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.aberto .modal > form > label > .fundo-input {
+    height: 33px;
+    border-radius: 50px;
+    text-indent: 10px;
+}
+.aberto .modal > form > button {
+    width: 174px;
+    height: 76px;
+    background: #EDFD3E 0% 0% no-repeat padding-box;
+    border-radius: 51px;
+    border: unset;
+    font-size: 35px;
+    margin-bottom: 29px;
+}
+.cadastro-esqueci > a {
+    font-size: 30px;
+    text-decoration: unset !important;
+}
+/*CSS GRAFICO HOME*/
+#graficoAnimacao {
+    rotate: 33deg;
+}
+.animated.bounceIn{
+    animation-duration: .75s;
+  }
+  .bounceIn {
+    animation-name: bounceIn;
+}
+/*CSS CADASTRO*/
+.formulario {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: #03B6CF;
+}
+.formulario .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulario > .form > form {
+    display: flex;
+    flex-direction: column;
+}
+.formulario > .form > form > label{
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.formulario > .form > form > label > span {
+    max-width: 147px !important;
+    width: 100%;
+}
+.form > h1 {
+    font-size: 35px;
+}
+.formulario > .form > form > label > input {
+    width: 290px;
+    border: unset;
+}
+.formulario > .form > form > span {
+    display: flex;
+    justify-content: center;
+}
+.formulario > .form > form > span > button {
+    background: #EDFD3E 0% 0% no-repeat padding-box;
+    border-radius: 51px;
+    border: unset;
+    font-size: 35px;
+    padding: 15px 19px 14px 18px;
+}
+/*CSS ESQUECI A SENHA*/
+.esqueci {
+    display: flex;
+    justify-content: center;
+    background-color: #03B6CF;
+}
+.esqueci > div > h1 {
+    font-size: 35px;
+}
+.esqueci > div > h4 {
+    max-width: 347px;
+}
+.esqueci > div > h4 {
+    max-width: 347px;
+    font-weight: normal;
+    font-size: 25px;
+}
+.esqueci > .form {
+    display: flex;
+    flex-direction: column;
+}
+.esqueci > .form > label {
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    margin-bottom: 127px;
+}
+.esqueci > .form > label > span {
+    margin-right: 26px;
+}
+.esqueci > .form > label > input {
+    max-width: 346px;
+    min-width: 100%;
+}
+.esqueci  > .form > span {
+    display: flex;
+    justify-content: center;
+}
+
+.esqueci > .form > span > button {
+    background: #EDFD3E 0% 0% no-repeat padding-box;
+    border-radius: 51px;
+    border: unset;
+    font-size: 35px;
+    padding: 15px 19px 14px 18px;
+}
+/*CSS pagina do usuario*/
+.section-usuario {
+    background-color: #03B6CF;
+}
+.section-usuario .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.usuario > h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+.edicao-meta{
+    display: none;
+}
+.edicao-usuario {
+    margin-top: 34px;
+}
+.container .nova-meta {
+    width: 100%;
+}
+.container .nova-meta > h2 {
+    font-size: 35px;
+}
+.section-metas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+.section-metas .metas {
+    max-width: 1052px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #03B6CFA3;
+    margin-bottom: 150px;
+    border-radius: 50px;
+}
+.titulo-meta {
+    width: 100%;
+    height: 229px;
+    background: #03B6CF 0% 0% no-repeat padding-box;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-meta h2 {
+    font-size: 52px;
+}
+.conteuo-meta {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-meta > p {
+    font-size: 50px;
+}
+.conteuo-meta img {
+    margin-top: 27px;
+}
+.metas .btn-cadastre {
+    margin-top: 17px;
+    margin-bottom: 37px;
+    width: 100%;
+    justify-content: space-around;
+}
+.btn-cadastre > button {
+    background: #03B6CF 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    border: unset;
+    height: 95px;
+}
+.btn-cadastre > button > a {
+    font-size: 35px;
+    text-decoration: unset;
+    padding: 24px 78px;
+}
